@@ -16,9 +16,6 @@
 
 ---
 
-Animated Skill / Progress Bars by **Abhishek Jadhav** — Web Developer and first-year BCA student at VIIT, Baramati. Built with **HTML5 + CSS3 + Vanilla JavaScript**: a dedicated Skills section with 8 animated horizontal progress bars that start at 0% and smoothly fill to their target percentages when the section scrolls into view. IntersectionObserver triggers the animation once, CSS transitions handle the fill, and every bar stops exactly at its configured value. No frameworks, no build step, no backend.
-
-> **Internship attribution:** 45-day Web Development Internship at **Veda Technology** — Day 29: Animated Skill / Progress Bars.
 
 ## Features
 
@@ -109,27 +106,6 @@ Result:      Bar stops exactly at 95%, label updates to "95%", aria-valuenow="95
 | 6 | C++ | 75% |
 | 7 | Responsive Design | 90% |
 | 8 | Git & GitHub | 80% |
-
-## Testing Checklist
-
-- [x] All 8 skill bars initially start at 0%.
-- [x] Every bar reaches its correct target percentage.
-- [x] IntersectionObserver triggers the animation when the section scrolls into view.
-- [x] Animation happens only once (no repeated fill on scroll).
-- [x] Staggered timing looks smooth without glitches.
-- [x] Percentages stop exactly at configured values (no overshoot).
-- [x] Skill name left, percentage right, rounded track, colored fill present.
-- [x] Layout works on mobile, tablet, and desktop.
-- [x] No horizontal overflow or alignment issues.
-- [x] No JavaScript console errors.
-- [x] ARIA `progressbar` values update correctly.
-- [x] Fallback works if IntersectionObserver is unavailable.
-
-## Limitations
-
-- Percentages are static (hard-coded), not fetched from a backend.
-- Animation runs once per page load; refreshing restarts it from 0%.
-- No certificate, counter, or edit mode — purely presentational.
 
 ---
 
