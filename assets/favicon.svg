@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">Animated Skill Bars — Veda Technology Internship Day 29</title>
+  <desc id="desc">Professional favicon with three ascending skill progress bars and a verified checkmark on a blue-to-orange gradient tile.</desc>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tile -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#tile)"/>
+  <!-- Top light for depth -->
+  <rect x="4" y="4" width="56" height="28" rx="14" fill="#ffffff" opacity="0.08"/>
+
+  <!-- Skill bars: ascending, grounded on a baseline -->
+  <rect x="12" y="38" width="10" height="12" rx="3" fill="url(#bar1)"/>
+  <rect x="27" y="31" width="10" height="19" rx="3" fill="url(#bar2)"/>
+  <rect x="42" y="24" width="10" height="26" rx="3" fill="url(#bar3)"/>
+
+  <!-- Baseline -->
+  <rect x="10" y="52.5" width="44" height="3" rx="1.5" fill="#ffffff" opacity="0.45"/>
+
+  <!-- Verified check badge -->
+  <circle cx="49.5" cy="15.5" r="8.5" fill="#ffffff"/>
+  <path d="M45.5 15.2l2.7 2.7 4.3-4.6" fill="none" stroke="#2563eb" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
